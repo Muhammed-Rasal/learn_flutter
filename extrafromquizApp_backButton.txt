@@ -1,0 +1,63 @@
+// leading: indexForQuestionNumber > 10 || indexForQuestionNumber == 1
+            //     ? ElevatedButton(
+            //         style: ElevatedButton.styleFrom(
+            //           backgroundColor: Colors.white,
+            //           elevation: 0,
+            //         ),
+            //         onPressed: () {
+            //           showDialog<String>(
+            //               context: context,
+            //               builder: (BuildContext context) => AlertDialog(
+            //                     insetPadding: EdgeInsets.zero,
+            //                     contentTextStyle: GoogleFonts.mulish(),
+            //                     shape: RoundedRectangleBorder(
+            //                       borderRadius: BorderRadius.circular(20),
+            //                     ),
+            //                     title: const Text(
+            //                       'Quit quiz?',
+            //                     ),
+            //                     content: const Text(
+            //                       'Are you sure you want to exit!',
+            //                       textAlign: TextAlign.left,
+            //                       style:
+            //                           TextStyle(color: Colors.grey, fontSize: 16),
+            //                     ),
+            //                     actions: <Widget>[
+            //                       TextButton(
+            //                         onPressed: () =>
+            //                             Navigator.pop(context, 'Cancel'),
+            //                         child: const Text(
+            //                           'NO',
+            //                           style: TextStyle(
+            //                               color: Color.fromRGBO(66, 130, 241, 1)),
+            //                         ),
+            //                       ),
+            //                       TextButton(
+            //                         onPressed: () => Navigator.push(
+            //                             context,
+            //                             MaterialPageRoute(
+            //                                 builder: (context) => exit(0))),
+            //                         child: const Text(
+            //                           'YES',
+            //                           style: TextStyle(
+            //                               color: Color.fromRGBO(66, 130, 241, 1)),
+            //                         ),
+            //                       ),
+            //                     ],
+            //                   ));
+            //           setState(() {
+            //             // if (indexForQuestionNumber > 0) {
+            //             //   indexForQuestionNumber = indexForQuestionNumber - 1;
+            //             // }
+            //             SelectedOption = 0;
+            //             marksObtainedFromCorrectAnswer =
+            //                 marksObtainedFromCorrectAnswer - 1;
+            //           });
+            //         },
+            //         child: const Icon(
+            //           Icons.arrow_back,
+            //           color: Colors.black,
+            //           size: 30,
+            //         ),
+            //       )
+            //     : SizedBox(),

@@ -1,0 +1,6 @@
+parse api data and display in a listview
+alongside his name ----sign in button
+user tap on his name for first time ----dialog--to fill ageand gender
+once done -----new screen ---displaying entered data--
+after sign in sign in=sign out
+next time user clicks name ---no dialog but to next screen

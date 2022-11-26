@@ -1,0 +1,4 @@
+ keytool -list -v  -alias androiddebugkey -keystore C:\Users\rasal\.android\debug.keystore
+
+
+pass:android
